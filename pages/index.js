@@ -7,7 +7,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import sabyasachi from "../public/dev-ed-wave.png";
+import sabyasachi from "../public/Sabysachi-Sarkar.jpg";
 import { useState } from "react";
 import LearntoCode from "../public/LearnToCode.png"
 import Cardeals from "../public/car-deals.png"
