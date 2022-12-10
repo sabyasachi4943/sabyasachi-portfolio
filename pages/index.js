@@ -38,12 +38,12 @@ export default function Home() {
                       setDarkMode(!darkMode);
                       console.log("clicked");
                     }}
-                    className=" cursor-pointer text-2xl dark:text-white text-black"
+                    className=" cursor-pointer shadow-2xl text-2xl dark:text-white text-black"
                   />
                 </li>
                 <li>
                   <a
-                    className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                    className="bg-gradient-to-r shadow-2xl from-cyan-500 text- to-teal-500 text-white px-2 py-2 border-none rounded-md ml-4"
                     href=" https://drive.google.com/file/d/1IQbwDu-ycQHrvJ1gVAvk7BxLVJCrW3Ud/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
@@ -54,7 +54,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#contactme"
-                    className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                    className="bg-gradient-to-r shadow-2xl from-cyan-500 text- to-teal-500 text-white px-2 py-2 border-none rounded-md ml-4"
                   >
                     Contact
                   </a>
@@ -63,7 +63,9 @@ export default function Home() {
             </nav>
             <div className="text-center p-10 py-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-                Sabyasachi Sarkar
+                <p className=" drop-shadow-lg shadow-black">
+                  Sabyasachi Sarkar
+                </p>
               </h2>
               <h3 className="text-2xl py-2 dark:text-white text-black md:text-3xl">
                 Developer and designer.
@@ -95,7 +97,7 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
               </div>
-              <div className="mx-auto flex items-center justify-center  bg-gradient-to-b from-teal-500 rounded-full lg:w-80 lg:h-80 w-40 h-40 relative overflow-hidden mt-20 md:h-80 md:w-80">
+              <div className="mx-auto flex items-center justify-center outline outline-offset-2 outline-4 outline-cyan-400 shadow-2xl bg-gradient-to-b from-teal-500 rounded-full lg:w-80 lg:h-80 w-40 h-40 relative overflow-hidden mt-20 md:h-80 md:w-80">
                 <Image
                   src={sabyasachi}
                   layout="fill"
@@ -109,7 +111,7 @@ export default function Home() {
           {/* projects section */}
           <section>
             <div>
-              <h2 className="text-5xl text-center py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl m-24">
+              <h2 className="text-5xl text-center mx-auto flex items-center justify-center py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl m-24">
                 My Projects
               </h2>
             </div>
