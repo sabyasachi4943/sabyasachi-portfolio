@@ -9,6 +9,9 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import sabyasachi from "../public/dev-ed-wave.png";
 import { useState } from "react";
+import LearntoCode from "../public/LearnToCode.png"
+import Cardeals from "../public/car-deals.png"
+import TravelServices from "../public/travel-services.png"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -115,7 +118,7 @@ export default function Home() {
               <div className="card w-96 bg-base-100 shadow-xl">
                 <figure>
                   <Image
-                    src="/../public/car-deals.png"
+                    src={Cardeals}
                     alt="Cardeals"
                     width={500}
                     height={300}
@@ -160,10 +163,10 @@ export default function Home() {
                 </div>
               </div>
               {/* project 2 */}
-              <div className="card w-96 bg-base-100 shadow-xl">
+              <div className="card w-96  bg-base-100 shadow-xl">
                 <figure>
                   <Image
-                    src="/../public/travel-services.png"
+                    src={TravelServices}
                     alt="Travel-services"
                     width={500}
                     height={300}
@@ -208,10 +211,10 @@ export default function Home() {
                 </div>
               </div>
               {/* project 3 */}
-              <div className="card w-96 bg-base-100 shadow-xl">
+              <div className="card w-96  bg-base-100 shadow-xl">
                 <figure>
                   <Image
-                    src="/../public/LearnToCode.png"
+                    src={LearntoCode}
                     alt="LearnToCode"
                     width={500}
                     height={300}
