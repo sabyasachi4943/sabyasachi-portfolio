@@ -53,7 +53,7 @@ export default function Home() {
                     href="#contactme"
                     className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   >
-                    Contact Me
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -116,7 +116,7 @@ export default function Home() {
                 <figure>
                   <Image
                     src="/../public/car-deals.png"
-                    alt="LearnToCode"
+                    alt="Cardeals"
                     width={500}
                     height={300}
                   ></Image>
@@ -164,7 +164,7 @@ export default function Home() {
                 <figure>
                   <Image
                     src="/../public/travel-services.png"
-                    alt="LearnToCode"
+                    alt="Travel-services"
                     width={500}
                     height={300}
                   ></Image>
