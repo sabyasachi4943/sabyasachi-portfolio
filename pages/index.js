@@ -13,6 +13,7 @@ import LearntoCode from "../public/LearnToCode.png";
 import Cardeals from "../public/car-deals.png";
 import TravelServices from "../public/travel-services.png";
 import Link from "next/link";
+import bg from "../public/Laptop-man1.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -87,6 +88,13 @@ export default function Home() {
               <h3 className="text-2xl py-2 dark:text-white text-black md:text-3xl">
                 Developer and designer.
               </h3>
+              <div className="mx-auto items-center">
+                <Image
+                  src={bg}
+                  alt="man"
+                  className="mx-auto items-center animate-pulse "
+                ></Image>
+              </div>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
                 Freelancer providing services for programming and design content
                 needs. Join me down below and let&apos;s get cracking!
