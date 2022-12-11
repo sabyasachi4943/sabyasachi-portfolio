@@ -9,9 +9,10 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import sabyasachi from "../public/Sabysachi-Sarkar.jpg";
 import { useState } from "react";
-import LearntoCode from "../public/LearnToCode.png"
-import Cardeals from "../public/car-deals.png"
-import TravelServices from "../public/travel-services.png"
+import LearntoCode from "../public/LearnToCode.png";
+import Cardeals from "../public/car-deals.png";
+import TravelServices from "../public/travel-services.png";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -50,6 +51,22 @@ export default function Home() {
                   >
                     Resume
                   </a>
+                </li>
+                <li>
+                  <Link
+                    className="bg-gradient-to-r shadow-2xl from-cyan-500 text- to-teal-500 text-white px-2 py-2 border-none rounded-md ml-4"
+                    href="/blog"
+                  >
+                    blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="bg-gradient-to-r shadow-2xl from-cyan-500 text- to-teal-500 text-white px-2 py-2 border-none rounded-md ml-4"
+                    href="/about"
+                  >
+                    About me
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -141,6 +158,12 @@ export default function Home() {
                       <button className="btn btn-primary m-2">LIve link</button>
                     </a>
 
+                    <Link href="projects/cardeals">
+                      <button className="btn btn-primary m-2">
+                        see details
+                      </button>
+                    </Link>
+
                     <div className="card-actions justify-end">
                       <div className="badge badge-outline">
                         <a
@@ -189,6 +212,12 @@ export default function Home() {
                       <button className="btn btn-primary m-2">LIve link</button>
                     </a>
 
+                    <Link href="projects/travelservices">
+                      <button className="btn btn-primary m-2">
+                        see details
+                      </button>
+                    </Link>
+
                     <div className="card-actions justify-end">
                       <div className="badge badge-outline">
                         <a
@@ -236,6 +265,12 @@ export default function Home() {
                     >
                       <button className="btn btn-primary m-2">LIve link</button>
                     </a>
+
+                    <Link href="projects/learntocode">
+                      <button className="btn btn-primary m-2">
+                        see details
+                      </button>
+                    </Link>
 
                     <div className="card-actions justify-end">
                       <div className="badge badge-outline">
